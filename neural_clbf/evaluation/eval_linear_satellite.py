@@ -13,8 +13,8 @@ matplotlib.use('TkAgg')
 def plot_linear_satellite():
     # Load the checkpoint file. This should include the experiment suite used during
     # training.
-    log_file = "saved_models/review/linear_satellite_cbf.ckpt"
-    # log_file = "logs/linear_satellite_cbf/tanh/commit_7390ab2/version_0/checkpoints/epoch=20-step=3695.ckpt"
+    #log_file = "saved_models/review/linear_satellite_cbf.ckpt"
+    log_file = "logs/linear_satellite_cbf/relu/commit_9bfa016/version_1/checkpoints/epoch=100-step=17775.ckpt"
     neural_controller = NeuralCBFController.load_from_checkpoint(log_file)
 
     # Tweak parameters

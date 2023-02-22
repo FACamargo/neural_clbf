@@ -4,11 +4,14 @@ import sys
 import os
 
 
-dirs = [
-    "/home/cbd/src/mit/AeroBenchVVPython",
-    "/home/cbd/src/AeroBenchVVPython",
-    "/home/charles/src/AeroBenchVVPython",
-]
+#dirs = [
+#    "/home/cbd/src/mit/AeroBenchVVPython",
+#    "/home/cbd/src/AeroBenchVVPython",
+#    "/home/charles/src/AeroBenchVVPython",
+#]
+
+dirs = ["/home/kiko/AeroBenchVVPython/code"]
+
 for dir_name in dirs:
     if os.path.isdir(dir_name):
         sys.path.append(dir_name)
